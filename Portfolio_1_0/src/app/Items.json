@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "category": "Apps",
+      "title": "Native Clock",
+      "description": "A clock app that I developed in my pursuit of understanding the Windows API. Starting from the Win32 paradigms, to adding modern features using modern APIs, I designed the clock to reflect the desktop wallpaper, similar to the Mica effect in Windows 11.",
+      "backgroundImage": "nativeclock.png",
+      "images": [
+        "nativeclock1.png",
+        "nativeclock2.png",
+        "nativeclock3.png"
+      ]
+
+    },
+    {
+      "category": "Games",
+      "title": "Bokksumeka",
+      "description": "Semester Project for Experimental Games. Our project revolved around controlling a dog mech in the game using large-scale custom hardware. In my contribution, Sliders, Switches, and Buttons connected to an Arduino sent inputs to the Unity Engine. The code I wrote for the Arduino involved bitwise programming that reflected a custom input device that I coded in the Unity Input System.",
+      "videoUrl": "4lmnb3dEI8k",
+      "backgroundImage": "bokksumeka.png"
+       
+    },
+    {
+      "category": "Games",
+      "title": "Smoke & Mirrors",
+      "description": "Semester Project for Ludic Games. For our first semester project, we made a simple puzzle game where the player used a combination of lights, the color of which revealed corresponding objects. On my part, I made the lights interact with each other using recursive raycasts, as well as mirrors to reflect the lights. The challenge was having lights meet at different angles combining into a new light source that shined along the normal, which I figured out using recursive raycasts.",
+      "videoUrl": "Wb8RS72MvAc",
+      "backgroundImage": "smokeandmirrors.png"
+    },
+    {
+      "category": "Games",
+      "title": "Beatdown",
+      "description": "Semester Project for Multiplayer Games. This project was a couch co-op rhythm based shooter, where different weapons were synchronized with different parts of the music. It was our first dive into using FMOD, which was a massive help in designing the weapons system. Aside from this, I worked on the character movement, where the character was on rollerblades, increasing their speed if the player pressed to the beat.",
+      "videoUrl": "lZqC_syGzXo",
+      "backgroundImage": "beatdown.png"
+    },
+    {
+      "category": "Games",
+      "title": "Lost Adrift",
+      "description": "Semester Project for Narrative Games. The aim of this project was to design around a narrative. As such, the gameplay elements were simple. My work here was minor - adding outlines to selectable objects, and raycasting to detect object proximity.",
+      "videoUrl": "XuPMxCUN0Rw",
+      "backgroundImage": "lostadrift.png"
+    },
+    {
+      "category": "Web",
+      "title": "Portfolio 1.0",
+      "description": "This website was made with Angular. I made modular nested components to facilitate state management, and a custom pipe to filter through all of the items by category.",
+      "images": [
+        "portfolio.1.01.jpg",
+        "portfolio.1.02.jpg"
+      ]
+    }
+  ]
+}

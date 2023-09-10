@@ -1,0 +1,12 @@
+img{
+    width:18em;
+    height:15em;
+    object-fit:cover;
+}
+
+:host{
+    grid-row-start:3;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 1em;
+}

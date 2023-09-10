@@ -1,0 +1,5 @@
+<app-hero></app-hero>
+<app-tabs [selectedTab]="this.selectedTab" [tabs]="this.tabs" (ChangeTabEvent)="ChangeTab($event)"></app-tabs>
+<app-about *ngIf="this.selectedTab=='About'"></app-about>
+<app-items [tab]="this.selectedTab" [items]="this.items"></app-items>
+

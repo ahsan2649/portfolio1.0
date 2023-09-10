@@ -1,0 +1,2 @@
+<app-items-list *ngIf="this.selectedItem == ''" [items]="this.items" [tab]="this._tab" (EmitSelectedItem)="SelectItem($event)"></app-items-list>
+<app-item-description *ngIf="this.selectedItem != ''" [item]="GetSelectedItem(this.selectedItem)" (BackEmitter)="this.selectedItem=''"></app-item-description>

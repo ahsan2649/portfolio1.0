@@ -1,0 +1,5 @@
+<button (click)="BackEmitter.emit()">⇦</button>
+<h4>{{this.item.title}}</h4>
+<p>{{this.item.description}}</p>
+<youtube-player [videoId]="this.item.videoUrl"></youtube-player>
+<app-images *ngIf="this.item.images" [images]="this.item.images" [title]="this.item.title"></app-images>

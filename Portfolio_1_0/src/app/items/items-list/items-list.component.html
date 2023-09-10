@@ -1,0 +1,2 @@
+<h4 style="cursor:pointer" *ngFor="let item of items | itemsFilterByCategory:tab" class="item"  [ngStyle]="{ 'background-image': 'url(' + this.GetBackgroundImage(item) + ')'}" (click)="EmitSelectedItem.emit(item.title)">{{item.title}}</h4>
+<h4 *ngIf="this.tab != '' && this.tab != 'About'" class="item">More Coming Soon!</h4>

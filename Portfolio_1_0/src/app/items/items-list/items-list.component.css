@@ -1,0 +1,29 @@
+.item {
+  display: grid;
+  background-color: #004644;
+  border-radius: 0.75em;
+  height: 6em;
+  align-items: end;
+  padding: 0.75em;
+}
+
+  .item:hover {
+    color: #b4fff1;
+    text-shadow: 0 0 30px aqua;
+  }
+
+:host {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em 2em;
+  margin: 0 0;
+}
+
+h4 {
+  font-size: 18pt;
+  background-size: auto 100%;
+}
+
+p {
+  font-size: 16pt;
+}

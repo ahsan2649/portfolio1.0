@@ -1,0 +1,14 @@
+:host{
+    background-color:#203944;
+    margin:2em 0;
+    padding:3em;
+    border-radius:0.75em;
+}
+
+h1{
+    font-size:36pt;
+}
+
+h2{
+    font-size:24pt;
+}

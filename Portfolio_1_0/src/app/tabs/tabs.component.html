@@ -1,0 +1,1 @@
+<h3 *ngFor="let tab of tabs" (click)="ChangeTabEvent.emit(tab)" [class]="GetTabClasses(tab)">{{tab}}</h3>

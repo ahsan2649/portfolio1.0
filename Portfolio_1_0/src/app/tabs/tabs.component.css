@@ -1,0 +1,32 @@
+.tab{
+    display:grid;
+    width: 5em;
+    height:5em;
+    border: 5px solid;
+    justify-items:center;
+    align-items:center;
+    grid-row:1/1;
+    border-radius:0.75em;
+    text-transform:uppercase;
+    font-size:20pt;
+    user-select:none;
+}
+
+  .tab:hover {
+    cursor: pointer;
+    color: #b4fff1;
+    text-shadow: 0 0 30px aqua;
+    box-shadow: 0 0 10px aqua;
+  }
+
+.active {
+  color: #b4fff1;
+  text-shadow: 0 0 30px aqua;
+  box-shadow: 0 0 10px aqua;
+}
+
+:host{
+    display:grid;
+    grid-template-rows:1fr;
+    justify-content:space-around;
+}
