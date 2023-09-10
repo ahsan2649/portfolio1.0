@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Item } from '../../ItemInterface';
 
-let bgImagesPath = '../../../assets/images/Backgrounds/'
+let bgImagesPath = '/assets/images/Backgrounds/'
 
 @Component({
   selector: 'app-items-list',
