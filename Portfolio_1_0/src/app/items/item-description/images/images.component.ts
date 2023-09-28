@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./images.component.css']
 })
 export class ImagesComponent {
-  imagesPath = "../../../../assets/images/";
+  imagesPath = "assets/images/";
   @Input() images!: string[];
   @Input() title!: string;
 }
